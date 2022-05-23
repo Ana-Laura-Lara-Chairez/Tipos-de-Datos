@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tipos de Datos y Operadores </title>
+  <link rel="stylesheet" href="css/tiposdatos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="cont">
+          <h1>Tiendita</h1>
+          <p class="img"> <img class="tiendita-img" src="img/tiendita.png"></p>
+            <form class="formulario">
+                <div class="nombre">
+                  <label for="nombre">Nombre de producto:</label>
+                  <br>
+                  <input type="text" placeholder="Nombre de producto" id="nombre" name="nombre" required>
+                </div>
+                <div class="cantidad">
+                  <label for="cantidad" >Cantidad:</label>
+                  <br>
+                  <input type="number" placeholder="Cantidad" id="cantidad" name="cantidad" min="1" max="35" required>
+                </div>
+                <div class="precio">
+                    <label for="precio" >Precio:</label>
+                    <br>
+                    <input step=”any” type="number" placeholder="Precio" id="precio" name="precio" required>
+                  </div>
+
+                <div class="botones">
+                  <input class="botones calcular" type="submit" name="calcular" value="Calcular" id="calcular">
+                  <input class="botones borrar" type="reset" name="borrar" value="Borrar">
+                </div>
+              </form>
+          <div class="regresar">
+            <a href='' class="icon-arrow-left">Regresar</a>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
